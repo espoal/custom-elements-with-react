@@ -1,0 +1,15 @@
+{
+  "name": "custom-elements-with-react",
+  "packageManager": "yarn@3.1.1",
+  "scripts": {
+    "build": "node build.mjs"
+  },
+  "devDependencies": {
+    "@yarnpkg/esbuild-plugin-pnp": "^2.0.0",
+    "esbuild": "^0.14.7"
+  },
+  "dependencies": {
+    "react": "experimental",
+    "react-dom": "experimental"
+  }
+}

@@ -1,0 +1,23 @@
+body {
+    display: grid;
+    grid-template: auto 1fr / auto 1fr;
+    background: black;
+    margin: 0;
+    height: 100vh;
+}
+
+header {
+    grid-column: 1 / 4;
+    background: blue;
+}
+
+sidebar {
+    grid-column: 1 / 2;
+    background: red;
+}
+
+main {
+    grid-column: 2 / 3;
+    background: green;
+}
+
