@@ -23008,11 +23008,16 @@ var require_react_dom = __commonJS({
 var import_react_dom = __toESM(require_react_dom());
 var import_react = __toESM(require_react());
 var App = () => {
+  const ref = import_react.default.useRef();
   const handleChange = (e) => {
     console.log("change", e);
   };
   return /* @__PURE__ */ import_react.default.createElement("error-modal", {
-    change: handleChange
+    ref: (el) => {
+      el.refHandler = handleChange;
+    },
+    handler: handleChange,
+    test: "test"
   });
 };
 var rootElement = document.getElementById("react-app");

@@ -27,11 +27,6 @@ var modalHandler = (event) => {
 var ErrorModal = class extends HTMLElement {
   constructor() {
     super();
-  }
-  connectedCallback() {
-    console.log({ element: this });
-    const handleChange = this.getAttribute("change");
-    console.log({ handleChange });
     this.attachShadow({ mode: "open" });
     this.shadowRoot?.appendChild(template.content.cloneNode(true));
     const okbutton = this.shadowRoot?.getElementById("okbutton");
@@ -39,7 +34,20 @@ var ErrorModal = class extends HTMLElement {
     const rebutton = this.shadowRoot?.getElementById("refetch");
     rebutton?.addEventListener("click", refetchHandler);
   }
+  connectedCallback() {
+    const element = this;
+    console.log({ element });
+    const handleChangeProp = element.handler;
+    console.log({ handleChangeProp });
+    const handleChangeAttr = element.getAttribute("handler");
+    console.log({ handleChangeAttr });
+    const testAttr = element.getAttribute("test");
+    console.log({ testAttr });
+  }
   disconnectedCallback() {
+  }
+  attributeChangedCallback(name, oldValue, newValue) {
+    console.log({ name, oldValue, newValue });
   }
 };
 customElements.define("error-modal", ErrorModal);

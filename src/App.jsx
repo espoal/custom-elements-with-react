@@ -2,6 +2,7 @@ import ReactDOM from "react-dom"
 import React from "react"
 
 const App = () => {
+  const ref = React.useRef()
   const handleChange = (e) => {
     console.log("change", e);
   };
@@ -9,7 +10,11 @@ const App = () => {
   return (
 
     <error-modal
-      change={handleChange}
+      ref={el => {
+        el.refHandler = handleChange
+      }}
+      handler={handleChange}
+      test={"test"}
     />
   );
 }
