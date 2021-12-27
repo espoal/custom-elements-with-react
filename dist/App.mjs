@@ -90,9 +90,9 @@ var require_object_assign = __commonJS({
   }
 });
 
-// pnp:/home/mamluk/Tier/custom-elements-with-react/.yarn/cache/react-npm-0.0.0-experimental-ceee524a8-20211217-35153396a5-482018132f.zip/node_modules/react/cjs/react.development.js
+// pnp:/home/mamluk/Tier/custom-elements-with-react/.yarn/cache/react-npm-0.0.0-experimental-3dc41d8a2-20211223-4778bdc067-5f3800c9e8.zip/node_modules/react/cjs/react.development.js
 var require_react_development = __commonJS({
-  "pnp:/home/mamluk/Tier/custom-elements-with-react/.yarn/cache/react-npm-0.0.0-experimental-ceee524a8-20211217-35153396a5-482018132f.zip/node_modules/react/cjs/react.development.js"(exports, module) {
+  "pnp:/home/mamluk/Tier/custom-elements-with-react/.yarn/cache/react-npm-0.0.0-experimental-3dc41d8a2-20211223-4778bdc067-5f3800c9e8.zip/node_modules/react/cjs/react.development.js"(exports, module) {
     "use strict";
     if (true) {
       (function() {
@@ -101,7 +101,7 @@ var require_react_development = __commonJS({
           __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStart(new Error());
         }
         var _assign = require_object_assign();
-        var ReactVersion = "18.0.0-rc.0-experimental-ceee524a8-20211217";
+        var ReactVersion = "18.0.0-rc.0-experimental-3dc41d8a2-20211223";
         var REACT_ELEMENT_TYPE = 60103;
         var REACT_PORTAL_TYPE = 60106;
         exports.Fragment = 60107;
@@ -1926,9 +1926,9 @@ var require_react_development = __commonJS({
   }
 });
 
-// pnp:/home/mamluk/Tier/custom-elements-with-react/.yarn/cache/react-npm-0.0.0-experimental-ceee524a8-20211217-35153396a5-482018132f.zip/node_modules/react/index.js
+// pnp:/home/mamluk/Tier/custom-elements-with-react/.yarn/cache/react-npm-0.0.0-experimental-3dc41d8a2-20211223-4778bdc067-5f3800c9e8.zip/node_modules/react/index.js
 var require_react = __commonJS({
-  "pnp:/home/mamluk/Tier/custom-elements-with-react/.yarn/cache/react-npm-0.0.0-experimental-ceee524a8-20211217-35153396a5-482018132f.zip/node_modules/react/index.js"(exports, module) {
+  "pnp:/home/mamluk/Tier/custom-elements-with-react/.yarn/cache/react-npm-0.0.0-experimental-3dc41d8a2-20211223-4778bdc067-5f3800c9e8.zip/node_modules/react/index.js"(exports, module) {
     "use strict";
     if (false) {
       module.exports = null;
@@ -23009,14 +23009,14 @@ var import_react_dom = __toESM(require_react_dom());
 var import_react = __toESM(require_react());
 var App = () => {
   const ref = import_react.default.useRef();
-  const handleChange = (e) => {
-    console.log("change", e);
+  const logicHandler = () => {
+    console.log("I handle some logic!");
   };
   return /* @__PURE__ */ import_react.default.createElement("error-modal", {
     ref: (el) => {
-      el.refHandler = handleChange;
+      el.refHandler = logicHandler;
     },
-    handler: handleChange,
+    handler: logicHandler,
     test: "test"
   });
 };
@@ -23027,6 +23027,15 @@ object-assign
 (c) Sindre Sorhus
 @license MIT
 */
+/**
+ * @license React
+ * react.development.js
+ *
+ * Copyright (c) Facebook, Inc. and its affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
 /**
  * Checks if an event is supported in the current execution environment.
  *
@@ -23042,14 +23051,6 @@ object-assign
  */
 /** @license React vundefined
  * react-dom.development.js
- *
- * Copyright (c) Facebook, Inc. and its affiliates.
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE file in the root directory of this source tree.
- */
-/** @license React vundefined
- * react.development.js
  *
  * Copyright (c) Facebook, Inc. and its affiliates.
  *
