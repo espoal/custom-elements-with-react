@@ -44,10 +44,11 @@ export class ErrorModal extends HTMLElement {
   connectedCallback () {
     const element = this
     console.log({ element })
-    const handleChangeProp = element.handler
-    console.log({ handleChangeProp })
-    const handleChangeAttr = element.getAttribute('handler')
-    console.log({ handleChangeAttr })
+    const handleLogicProp = element.handler
+    console.log({ handleLogicProp })
+    const handleLogicRef = element.refHandler
+    console.log({ handleLogicRef })
+
     const testAttr = element.getAttribute('test')
     console.log({ testAttr })
 
