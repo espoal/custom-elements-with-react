@@ -23009,14 +23009,18 @@ var import_react_dom = __toESM(require_react_dom());
 var import_react = __toESM(require_react());
 var App = () => {
   const ref = import_react.default.useRef();
-  const logicHandler = () => {
+  const logichandler = () => {
     console.log("I handle some logic!");
+  };
+  const secondHandler = {
+    hello: "world",
+    logichandler
   };
   return /* @__PURE__ */ import_react.default.createElement("error-modal", {
     ref: (el) => {
-      el.refHandler = logicHandler;
+      el.refHandler = secondHandler;
     },
-    handler: logicHandler,
+    logicHandler: secondHandler,
     test: "test"
   });
 };

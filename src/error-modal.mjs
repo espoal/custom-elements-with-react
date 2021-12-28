@@ -30,27 +30,55 @@ const modalHandler = (event) => {
 
 
 export class ErrorModal extends HTMLElement {
+
+  set logicHandler(handler) {
+    console.log({ propself: this})
+    console.log({ handler })
+    this.propLogicHandler = handler
+  }
+
+  set refHandler(handler) {
+    console.log({ refself: this})
+    console.log({ refHandler: handler })
+    this.refLogicHandler = handler
+  }
+
   constructor () {
     super()
+    // React has not initialized yet
+    /*const element = this
+    console.log({ element })
+    const handleLogicProp = element.proplogichandler
+    console.log({ handleLogicProp })
+    const handleLogicRef = element.reflogichandler
+    console.log({ handleLogicRef })
+
+    const testAttr = element.getAttribute('test')
+    console.log({ testAttr })*/
+
+
+  }
+
+  connectedCallback () {
+    const element = this
+    console.log({ element })
+    const handleLogicProp = element.propLogicHandler
+    console.log({ handleLogicProp })
+    handleLogicProp.logichandler()
+    const handleLogicRef = element.refLogicHandler
+    console.log({ handleLogicRef })
+
+
+    const testAttr = element.getAttribute('test')
+    console.log({ testAttr })
+
     this.attachShadow({ mode: 'open' })
     this.shadowRoot?.appendChild(template.content.cloneNode(true))
     const okbutton = this.shadowRoot?.getElementById('okbutton')
     okbutton?.addEventListener('click', modalHandler)
 
     const rebutton = this.shadowRoot?.getElementById('refetch')
-    rebutton?.addEventListener('click', refetchHandler)
-  }
-
-  connectedCallback () {
-    const element = this
-    console.log({ element })
-    const handleLogicProp = element.handler
-    console.log({ handleLogicProp })
-    const handleLogicRef = element.refHandler
-    console.log({ handleLogicRef })
-
-    const testAttr = element.getAttribute('test')
-    console.log({ testAttr })
+    rebutton?.addEventListener('click', handleLogicProp.logichandler)
 
 
 

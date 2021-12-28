@@ -3,16 +3,22 @@ import React from "react"
 
 const App = () => {
   const ref = React.useRef()
-  const logicHandler = () => {
+
+  const logichandler = () => {
     console.log("I handle some logic!")
-  };
+  }
+
+  const secondHandler = {
+    hello: 'world',
+    logichandler
+  }
 
   return (
     <error-modal
       ref={el => {
-        el.refHandler = logicHandler
+        el.refHandler= secondHandler
       }}
-      handler={logicHandler}
+      logicHandler={secondHandler}
       test={"test"}
     />
   );
