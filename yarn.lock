@@ -234,15 +234,15 @@ __metadata:
   linkType: hard
 
 "react-dom@npm:experimental":
-  version: 0.0.0-experimental-ceee524a8-20211217
-  resolution: "react-dom@npm:0.0.0-experimental-ceee524a8-20211217"
+  version: 0.0.0-experimental-3dc41d8a2-20211223
+  resolution: "react-dom@npm:0.0.0-experimental-3dc41d8a2-20211223"
   dependencies:
     loose-envify: ^1.1.0
     object-assign: ^4.1.1
-    scheduler: 0.0.0-experimental-ceee524a8-20211217
+    scheduler: 0.0.0-experimental-3dc41d8a2-20211223
   peerDependencies:
-    react: 0.0.0-experimental-ceee524a8-20211217
-  checksum: 4caa9decf4dcd75cbb0cb9ebe71abbb283fb3019ed88e80426c4335c252eb4d2834f25334bded46fc8843f295fda6c0af9b3cdb745aa0570d7171677c5670c3f
+    react: 0.0.0-experimental-3dc41d8a2-20211223
+  checksum: e15219f8955c3fc8c93fe2e2ae2051b6a2256465b1b3f93a45b67ee9404406229d94062e3fb7d6396e5e4dd8a07934d7badc46f72c918f5536630347ee8e7973
   languageName: node
   linkType: hard
 
@@ -256,13 +256,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"scheduler@npm:0.0.0-experimental-ceee524a8-20211217":
-  version: 0.0.0-experimental-ceee524a8-20211217
-  resolution: "scheduler@npm:0.0.0-experimental-ceee524a8-20211217"
+"scheduler@npm:0.0.0-experimental-3dc41d8a2-20211223":
+  version: 0.0.0-experimental-3dc41d8a2-20211223
+  resolution: "scheduler@npm:0.0.0-experimental-3dc41d8a2-20211223"
   dependencies:
     loose-envify: ^1.1.0
     object-assign: ^4.1.1
-  checksum: 7ea8bdc2f33d8f7a1012cd6a88e4344fd468a82861741d7a37fadabadc9e4e2e09b7dcb3e5da229075051ebc432df87d7534f9d451834bfc54ac05c11e7b9d48
+  checksum: 7b5fbc1aa55d6258f4bc287dd7ad4699d26257aaf18466e6b9dd1c7619c199e3b36c249d369548743e73fbbfddf0406efef0c872f1bd3b6cbbbec535a8c39adb
   languageName: node
   linkType: hard
 

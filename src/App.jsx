@@ -25,5 +25,8 @@ const App = () => {
 }
 
 
-const rootElement = document.getElementById("react-app");
+const rootElement = document.getElementById("react-app")
+// React 18+
 ReactDOM.createRoot(rootElement).render(<App />);
+// React 17
+// ReactDOM.render(<App />, rootElement)

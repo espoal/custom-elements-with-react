@@ -1938,9 +1938,9 @@ var require_react = __commonJS({
   }
 });
 
-// pnp:/home/mamluk/Tier/custom-elements-with-react/.yarn/cache/scheduler-npm-0.0.0-experimental-ceee524a8-20211217-142b33a509-7ea8bdc2f3.zip/node_modules/scheduler/cjs/scheduler.development.js
+// pnp:/home/mamluk/Tier/custom-elements-with-react/.yarn/cache/scheduler-npm-0.0.0-experimental-3dc41d8a2-20211223-494b61bfcc-7b5fbc1aa5.zip/node_modules/scheduler/cjs/scheduler.development.js
 var require_scheduler_development = __commonJS({
-  "pnp:/home/mamluk/Tier/custom-elements-with-react/.yarn/cache/scheduler-npm-0.0.0-experimental-ceee524a8-20211217-142b33a509-7ea8bdc2f3.zip/node_modules/scheduler/cjs/scheduler.development.js"(exports) {
+  "pnp:/home/mamluk/Tier/custom-elements-with-react/.yarn/cache/scheduler-npm-0.0.0-experimental-3dc41d8a2-20211223-494b61bfcc-7b5fbc1aa5.zip/node_modules/scheduler/cjs/scheduler.development.js"(exports) {
     "use strict";
     if (true) {
       (function() {
@@ -2388,9 +2388,9 @@ var require_scheduler_development = __commonJS({
   }
 });
 
-// pnp:/home/mamluk/Tier/custom-elements-with-react/.yarn/cache/scheduler-npm-0.0.0-experimental-ceee524a8-20211217-142b33a509-7ea8bdc2f3.zip/node_modules/scheduler/index.js
+// pnp:/home/mamluk/Tier/custom-elements-with-react/.yarn/cache/scheduler-npm-0.0.0-experimental-3dc41d8a2-20211223-494b61bfcc-7b5fbc1aa5.zip/node_modules/scheduler/index.js
 var require_scheduler = __commonJS({
-  "pnp:/home/mamluk/Tier/custom-elements-with-react/.yarn/cache/scheduler-npm-0.0.0-experimental-ceee524a8-20211217-142b33a509-7ea8bdc2f3.zip/node_modules/scheduler/index.js"(exports, module) {
+  "pnp:/home/mamluk/Tier/custom-elements-with-react/.yarn/cache/scheduler-npm-0.0.0-experimental-3dc41d8a2-20211223-494b61bfcc-7b5fbc1aa5.zip/node_modules/scheduler/index.js"(exports, module) {
     "use strict";
     if (false) {
       module.exports = null;
@@ -2400,9 +2400,9 @@ var require_scheduler = __commonJS({
   }
 });
 
-// pnp:/home/mamluk/Tier/custom-elements-with-react/.yarn/__virtual__/react-dom-virtual-c423701d7d/0/cache/react-dom-npm-0.0.0-experimental-ceee524a8-20211217-b67b7940e2-4caa9decf4.zip/node_modules/react-dom/cjs/react-dom.development.js
+// pnp:/home/mamluk/Tier/custom-elements-with-react/.yarn/__virtual__/react-dom-virtual-a99a076aa7/0/cache/react-dom-npm-0.0.0-experimental-3dc41d8a2-20211223-a8ba886d77-e15219f895.zip/node_modules/react-dom/cjs/react-dom.development.js
 var require_react_dom_development = __commonJS({
-  "pnp:/home/mamluk/Tier/custom-elements-with-react/.yarn/__virtual__/react-dom-virtual-c423701d7d/0/cache/react-dom-npm-0.0.0-experimental-ceee524a8-20211217-b67b7940e2-4caa9decf4.zip/node_modules/react-dom/cjs/react-dom.development.js"(exports) {
+  "pnp:/home/mamluk/Tier/custom-elements-with-react/.yarn/__virtual__/react-dom-virtual-a99a076aa7/0/cache/react-dom-npm-0.0.0-experimental-3dc41d8a2-20211223-a8ba886d77-e15219f895.zip/node_modules/react-dom/cjs/react-dom.development.js"(exports) {
     "use strict";
     if (true) {
       (function() {
@@ -10417,7 +10417,7 @@ var require_react_dom_development = __commonJS({
           }
           return null;
         }
-        var ReactVersion = "18.0.0-rc.0-experimental-ceee524a8-20211217";
+        var ReactVersion = "18.0.0-rc.0-experimental-3dc41d8a2-20211223";
         var SCHEDULING_PROFILER_VERSION = 1;
         var getLabelForLane$1 = getLabelForLane;
         var TotalLanes$1 = TotalLanes;
@@ -22991,9 +22991,9 @@ var require_react_dom_development = __commonJS({
   }
 });
 
-// pnp:/home/mamluk/Tier/custom-elements-with-react/.yarn/__virtual__/react-dom-virtual-c423701d7d/0/cache/react-dom-npm-0.0.0-experimental-ceee524a8-20211217-b67b7940e2-4caa9decf4.zip/node_modules/react-dom/index.js
+// pnp:/home/mamluk/Tier/custom-elements-with-react/.yarn/__virtual__/react-dom-virtual-a99a076aa7/0/cache/react-dom-npm-0.0.0-experimental-3dc41d8a2-20211223-a8ba886d77-e15219f895.zip/node_modules/react-dom/index.js
 var require_react_dom = __commonJS({
-  "pnp:/home/mamluk/Tier/custom-elements-with-react/.yarn/__virtual__/react-dom-virtual-c423701d7d/0/cache/react-dom-npm-0.0.0-experimental-ceee524a8-20211217-b67b7940e2-4caa9decf4.zip/node_modules/react-dom/index.js"(exports, module) {
+  "pnp:/home/mamluk/Tier/custom-elements-with-react/.yarn/__virtual__/react-dom-virtual-a99a076aa7/0/cache/react-dom-npm-0.0.0-experimental-3dc41d8a2-20211223-a8ba886d77-e15219f895.zip/node_modules/react-dom/index.js"(exports, module) {
     "use strict";
     if (false) {
       checkDCE();
@@ -23033,7 +23033,25 @@ object-assign
 */
 /**
  * @license React
+ * react-dom.development.js
+ *
+ * Copyright (c) Facebook, Inc. and its affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+/**
+ * @license React
  * react.development.js
+ *
+ * Copyright (c) Facebook, Inc. and its affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+/**
+ * @license React
+ * scheduler.development.js
  *
  * Copyright (c) Facebook, Inc. and its affiliates.
  *
@@ -23052,20 +23070,4 @@ object-assign
  * @return {boolean} True if the event is supported.
  * @internal
  * @license Modernizr 3.0.0pre (Custom Build) | MIT
- */
-/** @license React vundefined
- * react-dom.development.js
- *
- * Copyright (c) Facebook, Inc. and its affiliates.
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE file in the root directory of this source tree.
- */
-/** @license React vundefined
- * scheduler.development.js
- *
- * Copyright (c) Facebook, Inc. and its affiliates.
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE file in the root directory of this source tree.
  */
