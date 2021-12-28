@@ -23009,9 +23009,9 @@ var import_react_dom = __toESM(require_react_dom());
 var import_react = __toESM(require_react());
 var App = () => {
   const ref = import_react.default.useRef();
-  const logichandler = () => {
+  function logichandler() {
     console.log("I handle some logic!");
-  };
+  }
   const secondHandler = {
     hello: "world",
     logichandler

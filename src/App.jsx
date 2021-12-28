@@ -4,7 +4,7 @@ import React from "react"
 const App = () => {
   const ref = React.useRef()
 
-  const logichandler = () => {
+  function logichandler() {
     console.log("I handle some logic!")
   }
 
